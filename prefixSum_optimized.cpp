@@ -29,7 +29,9 @@ int main(){
       int value=0;
       if(startIndex==0) value=prefixSum[endIndex];
       else value=prefixSum[endIndex]-prefixSum[startIndex-1];
+      // unOptimized code e ekhane arekti loop colto. zehetu nested loop chilo tai timeComlexity hoto O(q*s). kintu ekhon kuno nested loop nai tai tai timeComplexity hocce O(q) za 10^5, i sec ei step run kora somvob
       cout<<value<<endl;
    } 
+   // final timeComplexity hocce O(q+s) za 10^5+10^5 =10^5 e za 1 sec e run kora somvob
     return 0;
 }
