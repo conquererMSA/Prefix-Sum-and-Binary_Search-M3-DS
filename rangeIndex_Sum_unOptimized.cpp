@@ -19,7 +19,7 @@ int main(){
       for(int i=startIndex; i<=endIndex; i++){ // O(s)
           sum+=arr[i];
       }
-      // while loop er vitorer complexity hobe O(s*q) => (10^5 * 10^5) => 10^10/ 10^10 step 1 sec ecomplte kora possible na.
+      // while loop er vitorer complexity hobe O(s*q) => (10^5 * 10^5) => 10^10. 10^10 step 1-10+ sec ecomplte kora possible na.
       //tai etake optimize korte hobe.
       cout<<sum<<endl;
     }
