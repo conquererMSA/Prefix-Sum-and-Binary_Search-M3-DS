@@ -11,7 +11,7 @@ int main(){
         int value;
         cin>>value;
         int leftIndex=0, rightIndex=size-1;
-        sort(arr, arr+size); // O(NlogN)
+        // sort(arr, arr+size); // O(NlogN)
         bool isExist=false;
         while(leftIndex<=rightIndex){ // O(logN), ekhane protibar array ordek hoye zacce tai array er size 10^7 bar bar array er size ordek hoay 50-60 ti step er moddhye value khuje pawa zacce
             int midIndex=(leftIndex+rightIndex)/2;
